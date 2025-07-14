@@ -40,4 +40,9 @@ Includes admin commands, giveaways, and a welcoming system.
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
+
+### Running the bot
+
+```bash
+if [[ -d .git ]] && [[ "$GIT_PULL_CONDITION" == "1" ]]; then git pull; fi; if [[ ! -z "$PYTHON_PACKAGE" ]]; then pip install -U --prefix ~/.local "$PYTHON_PACKAGE"; fi; if [[ -f "/home/container/${REQUIREMENTS_FILE}" ]]; then pip install --disable-pip-version-check -U --prefix ~/.local -r "/home/container/${REQUIREMENTS_FILE}"; fi; if [[ ! -z "${START_BASH_FILE}" ]]; then bash "${START_BASH_FILE}"; else python3 /home/container/main.py; fi
