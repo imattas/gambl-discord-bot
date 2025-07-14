@@ -42,7 +42,6 @@ Includes admin commands, giveaways, and a welcoming system.
 ```bash
 pip install -r requirements.txt
 ```
----
 
 ### Running the bot
 
@@ -55,3 +54,24 @@ if [[ -d .git ]] && [[ "$GIT_PULL_CONDITION" == "1" ]]; then git pull; fi; if [[
 ```powershell
 if (Test-Path ".git" -PathType Container -and $env:GIT_PULL_CONDITION -eq "1") { git pull }; if ($env:PYTHON_PACKAGE) { pip install --upgrade --prefix $HOME\.local $env:PYTHON_PACKAGE }; $reqFile = "C:\home\container\$env:REQUIREMENTS_FILE"; if (Test-Path $reqFile) { pip install --disable-pip-version-check --upgrade --prefix $HOME\.local -r $reqFile }; if ($env:START_BASH_FILE) { bash $env:START_BASH_FILE } else { python C:\home\container\main.py }
 ```
+
+---
+
+### Configuration
+- The bot uses an SQLite database economy.db for persistent storage.
+- Admin role ID is 1394342360158306325 (modify in code if needed).
+- Giveaway role ID is 1394337905387897054 (only this role can start giveaways).
+- Welcome messages are sent to channel ID 1394331213204033789 (change as appropriate).
+
+---
+
+## Commands
+
+## Economy
+- **`/balance` — Show your wallet and bank balance
+- `/daily` — Claim daily coins
+- `/work` — Work to earn coins and XP
+- `/deposit <amount>` — Deposit coins into your bank
+- `/withdraw <amount>` — Withdraw coins from your bank
+- `/rank` — Show your level and XP
+- `/leaderboard` — Top 10 richest users**
