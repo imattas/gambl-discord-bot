@@ -69,28 +69,41 @@ if (Test-Path ".git" -PathType Container -and $env:GIT_PULL_CONDITION -eq "1") {
 
 ## Economy
 **- `/balance` — Show your wallet and bank balance**
+
 **- `/daily` — Claim daily coins**
+
 **- `/work` — Work to earn coins and XP**
+
 **- `/deposit <amount>` — Deposit coins into your bank**
+
 **- `/withdraw <amount>` — Withdraw coins from your bank**
+
 **- `/rank` — Show your level and XP**
+
 **- `/leaderboard` — Top 10 richest users**
 
 ## Gambling
 **- `/coinflip <heads|tails> <amount>` — Flip a coin to win or lose coins**
+
 **- `/roulette <red|black|green> <amount>` — Bet on roulette colors**
+
 **- `/slots <amount>` — Spin the slot machine**
+
 **- `/rob <user>` — Attempt to rob another user**
+
 **- `/heist` — Join a group heist (requires 3+ users)**
 
 ## Shop & Inventory
 
 **- `/shop` — View shop items**
+
 **- `/buy <item>` — Buy an item from the shop**
+
 **- `/inventory` — Show your owned items**
 
 ## Admin
 **- `/give <user> <amount>` — Give coins to a user (admin role required)**
+
 **- `/setshop <item> <price>` — Add or update shop items (admin only)**
 
 ## Giveaways
