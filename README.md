@@ -122,3 +122,6 @@ Create by imattas/Zemi
 
 Contact: [discord](https://discord.gg/gambl)
 
+---
+
+**Happy gambling! 🎲🪙**
