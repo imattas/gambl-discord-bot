@@ -118,6 +118,7 @@ This project is open source and free to use. Feel free to contribute or report i
 ---
 
 ## Contact
-Create by imattas/zemi
+Create by imattas/Zemi
+
 Contact: [discord](https://discord.gg/gambl)
 
