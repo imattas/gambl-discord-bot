@@ -68,7 +68,7 @@ if (Test-Path ".git" -PathType Container -and $env:GIT_PULL_CONDITION -eq "1") {
 ## Commands
 
 ## Economy
-- **`/balance` — Show your wallet and bank balance
+**- `/balance` — Show your wallet and bank balance
 - `/daily` — Claim daily coins
 - `/work` — Work to earn coins and XP
 - `/deposit <amount>` — Deposit coins into your bank
