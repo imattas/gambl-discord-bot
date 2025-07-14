@@ -68,10 +68,56 @@ if (Test-Path ".git" -PathType Container -and $env:GIT_PULL_CONDITION -eq "1") {
 ## Commands
 
 ## Economy
-**- `/balance` — Show your wallet and bank balance
-- `/daily` — Claim daily coins
-- `/work` — Work to earn coins and XP
-- `/deposit <amount>` — Deposit coins into your bank
-- `/withdraw <amount>` — Withdraw coins from your bank
-- `/rank` — Show your level and XP
-- `/leaderboard` — Top 10 richest users**
+**- `/balance` — Show your wallet and bank balance**
+**- `/daily` — Claim daily coins**
+**- `/work` — Work to earn coins and XP**
+**- `/deposit <amount>` — Deposit coins into your bank**
+**- `/withdraw <amount>` — Withdraw coins from your bank**
+**- `/rank` — Show your level and XP**
+**- `/leaderboard` — Top 10 richest users**
+
+## Gambling
+**- `/coinflip <heads|tails> <amount>` — Flip a coin to win or lose coins**
+**- `/roulette <red|black|green> <amount>` — Bet on roulette colors**
+**- `/slots <amount>` — Spin the slot machine**
+**- `/rob <user>` — Attempt to rob another user**
+**- `/heist` — Join a group heist (requires 3+ users)**
+
+## Shop & Inventory
+
+**- `/shop` — View shop items**
+**- `/buy <item>` — Buy an item from the shop**
+**- `/inventory` — Show your owned items**
+
+## Admin
+**- `/give <user> <amount>` — Give coins to a user (admin role required)**
+**- `/setshop <item> <price>` — Add or update shop items (admin only)**
+
+## Giveaways
+**- `/giveaway <prize> <duration>` — Start a giveaway (role-restricted)
+Participants enter via interactive buttons.**
+
+---
+
+## Bot Events
+- Welcomes new members in the configured welcome channel with an embed message.
+
+---
+
+## Notes
+**The bot uses slash commands (`/command`) and requires the bot to be invited with appropriate permissions.**
+**Update role and channel IDs in the code to match your server setup.**
+**Make sure the bot has permission to send messages, embed links, and manage messages if needed.**
+**Keep your bot token secure and do not share it publicly.**
+
+---
+
+## License
+This project is open source and free to use. Feel free to contribute or report issues.
+
+---
+
+## Contact
+Create by imattas/zemi
+Contact: [discord](https://discord.gg/gambl)
+
